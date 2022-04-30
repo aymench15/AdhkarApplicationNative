@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow2"
+
+    android:textAlignment="center"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/btmNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+
+        app:menu="@menu/menu_navigation">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="267dp"
+        android:layout_gravity="top"
+        android:layout_weight="0"
+        android:src="@drawable/adkar3" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:paddingTop="400dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/button9"
+                android:layout_width="350dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/sabah"
+
+
+                android:clickable="true"
+                android:text="ggfg"
+                app:icon="@drawable/add" />
+
+            <ImageButton
+                android:id="@+id/button10"
+                android:layout_width="350dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/sabah"
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            android:orientation="horizontal"
+            android:paddingTop="73dp">
+
+            <ImageButton
+                android:id="@+id/button11"
+                android:layout_width="350dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/sabah"
+
+
+                android:text="Button" />
+
+            <ImageButton
+                android:id="@+id/button12"
+                android:layout_width="350dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/sabah"
+                android:text="Button"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/cross2"
+        android:visibility="gone"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/switch3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_weight="1"
+
+                android:text="Switch3"
+                android:thumbTint="#4CAF50"
+                android:visibility="visible" />
+
+            <Switch
+                android:id="@+id/switch2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_weight="1"
+                android:paddingTop="20dp"
+                android:text="Switch2"
+                android:thumbTint="#4CAF50"
+                android:visibility="visible" />
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_weight="1"
+                android:paddingTop="20dp"
+                android:text="Switch1"
+                android:thumbTint="#4CAF50"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:clickable="true"
+
+            android:onClick="back"
+            app:backgroundTint="#B2BCF3"
+            app:rippleColor="#EA0202"
+            app:srcCompat="@android:drawable/ic_delete" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:layout_gravity="top|left"
+        android:layout_marginStart="13dp"
+
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="13dp"
+        android:layout_weight="1"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:onClick="gone"
+        app:srcCompat="@android:drawable/ic_menu_manage"
+        tools:ignore="OnClick" />
+
+</RelativeLayout>
