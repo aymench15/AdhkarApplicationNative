@@ -50,19 +50,16 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/button9"
+                android:id="@+id/masaa_adhkar"
                 android:layout_width="350dp"
                 android:layout_height="80dp"
                 android:layout_weight="1"
                 android:background="@drawable/sabah"
-
-
                 android:clickable="true"
-                android:text="ggfg"
-                app:icon="@drawable/add" />
+                 />
 
             <ImageButton
-                android:id="@+id/button10"
+                android:id="@+id/sabah_adhkar"
                 android:layout_width="350dp"
                 android:layout_height="80dp"
                 android:layout_weight="1"
@@ -81,24 +78,7 @@
             android:orientation="horizontal"
             android:paddingTop="73dp">
 
-            <ImageButton
-                android:id="@+id/button11"
-                android:layout_width="350dp"
-                android:layout_height="80dp"
-                android:layout_weight="1"
-                android:background="@drawable/sabah"
 
-
-                android:text="Button" />
-
-            <ImageButton
-                android:id="@+id/button12"
-                android:layout_width="350dp"
-                android:layout_height="80dp"
-                android:layout_weight="1"
-                android:background="@drawable/sabah"
-                android:text="Button"
-                tools:ignore="SpeakableTextPresentCheck" />
         </LinearLayout>
 
     </RelativeLayout>
